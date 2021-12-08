@@ -51,6 +51,8 @@ spec:
 {{ toYaml .Values.server.nodeSelector | indent 8 }}
       affinity:
 {{ toYaml .Values.server.affinity | indent 8 }}
+      topologySpreadConstraints:
+{{ toYaml .Values.server.topologySpreadConstraints | indent 8 }}
       tolerations:
 {{ toYaml .Values.server.tolerations | indent 8 }}
       containers:

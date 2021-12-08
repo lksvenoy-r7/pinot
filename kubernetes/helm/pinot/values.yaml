@@ -114,6 +114,8 @@ controller:
 
   affinity: {}
 
+  topologySpreadConstraints: {}
+
   podAnnotations: {}
 
   updateStrategy:
@@ -188,6 +190,8 @@ broker:
   nodeSelector: {}
 
   affinity: {}
+
+  topologySpreadConstraints: {}
 
   tolerations: []
 
@@ -268,6 +272,8 @@ server:
   nodeSelector: {}
 
   affinity: {}
+
+  topologySpreadConstraints: {}
 
   tolerations: []
 
